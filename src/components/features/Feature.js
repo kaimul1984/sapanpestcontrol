@@ -4,7 +4,7 @@ import items from "./featureData";
 import Zoom from "react-reveal/Zoom";
 const Feature = () => {
   return (
-    <div className="feature">
+    <div className="feature" id="services">
       <h1 className="heading">common pest control</h1>
       <div className="wrapper">
         {items.map((item) => {

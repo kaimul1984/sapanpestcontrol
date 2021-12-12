@@ -6,6 +6,17 @@
   position: fixed;
   top: 0;
   z-index: 9999;
+  transition:top .5s ease-in;
+  &.hide{
+    top: -100px;
+    
+    @include respond(mobile){
+      top: -95px;
+    }
+    @include respond(largemobile){
+      top: -70px;
+    }
+  }
   @include respond(mobile) {
     width: 100%;
     height: auto;
@@ -19,6 +30,7 @@
 
   .top {
     width: 100%;
+    height: auto;
     background-color: $primary;
     display: none;
     @include respond(mobile) {

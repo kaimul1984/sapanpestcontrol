@@ -3,6 +3,7 @@ import Button from "../button/Button";
 import Fade from "react-reveal/Fade";
 
 import "./services.scss";
+import Feature from "../features/Feature";
 const Services = () => {
   return (
     <div className="services" id="services">
@@ -55,6 +56,7 @@ const Services = () => {
           </div>
         </Fade>
       </div>
+      <Feature />
     </div>
   );
 };

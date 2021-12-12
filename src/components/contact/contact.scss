@@ -157,9 +157,9 @@
         input[type="email"],
         input[type="number"] {
           margin: 1rem 0.3rem;
-          padding: 1rem 0.5rem;
+          padding: 1rem;
           border-radius: 5px;
-          border: 1px solid #fff;
+          border: .2px solid rgb(139, 138, 138);
           background: transparent;
           font-size: 2rem;
           color: #fff;
@@ -213,7 +213,7 @@
           border-radius: 5px;
           background: transparent;
           font-size: 2rem;
-          border: 1px solid #fff;
+          border: 1px solid rgb(126, 122, 122);
           color: #fff;
           //resize: none;
           outline: none;

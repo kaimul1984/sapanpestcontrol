@@ -22,7 +22,7 @@ export const Navlist = ({ id, path, title, active, setSelected}) => {
         to={path}
         spy={true}
         smooth={true}
-        offset={-150}
+        offset={-50}
         duration={300}
         className={active ? "link active" : "link"}
         onClick={()=> todo()}>

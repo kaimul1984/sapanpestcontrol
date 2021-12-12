@@ -9,13 +9,13 @@ import Topbar from "./components/topbar/Topbar";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Utility from "./components/utility/Utility";
-import Feature from "./components/features/Feature";
+//import Feature from "./components/features/Feature";
 import Card from "./components/card/Card";
 import ContextProvider from "./context/Context";
  import Review from "./components/review/Review";
 
 const App = () => {
-  //const [isOpen, setIsOpen] = useState("false");
+  
   return (
     <ContextProvider>
       <div className="App">
@@ -26,7 +26,7 @@ const App = () => {
           <Card />
           <About />
           <Services />
-          <Feature />
+          {/* <Feature /> */}
           <Review />
           <Utility />
           <Contact />

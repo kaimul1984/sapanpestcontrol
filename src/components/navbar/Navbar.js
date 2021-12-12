@@ -6,10 +6,14 @@ import navitems from "./navData";
 import { Navlist } from "./Navlist";
 const Navbar = () => {
   const [selected, setSelected] = useState("home");
-  const { isOpen } = useContext(Context);
-  //const [isOpen, setIsopen] = useState("false");
+  const { isOpen, show } = useContext(Context);
+  
   return (
-    <div className={isOpen ? 'navbar active' : 'navbar'}>
+    <div
+      className={
+        (isOpen ? "navbar active" : "navbar",
+        show ? "navbar" : "navbar reverse")
+      }>
       <nav>
         <ul>
           {navitems.map((item) => {
@@ -20,7 +24,6 @@ const Navbar = () => {
                 title={item.title}
                 active={selected === item.id}
                 setSelected={setSelected}
-                
               />
             );
           })}
