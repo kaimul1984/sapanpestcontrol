@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/sapanpestcontrol/static/css/main.adfebd64.chunk.css",
+    "main.js": "/sapanpestcontrol/static/js/main.dcfe7841.chunk.js",
+    "main.js.map": "/sapanpestcontrol/static/js/main.dcfe7841.chunk.js.map",
+    "runtime-main.js": "/sapanpestcontrol/static/js/runtime-main.960bba08.js",
+    "runtime-main.js.map": "/sapanpestcontrol/static/js/runtime-main.960bba08.js.map",
+    "static/js/2.d629463f.chunk.js": "/sapanpestcontrol/static/js/2.d629463f.chunk.js",
+    "static/js/2.d629463f.chunk.js.map": "/sapanpestcontrol/static/js/2.d629463f.chunk.js.map",
+    "index.html": "/sapanpestcontrol/index.html",
+    "static/css/main.adfebd64.chunk.css.map": "/sapanpestcontrol/static/css/main.adfebd64.chunk.css.map",
+    "static/js/2.d629463f.chunk.js.LICENSE.txt": "/sapanpestcontrol/static/js/2.d629463f.chunk.js.LICENSE.txt",
+    "static/media/ab2.72e24588.png": "/sapanpestcontrol/static/media/ab2.72e24588.png",
+    "static/media/ant.c3f2bb46.png": "/sapanpestcontrol/static/media/ant.c3f2bb46.png",
+    "static/media/bugs.739ba8c6.png": "/sapanpestcontrol/static/media/bugs.739ba8c6.png",
+    "static/media/fly.c7632fd8.png": "/sapanpestcontrol/static/media/fly.c7632fd8.png",
+    "static/media/hero.1c23f099.png": "/sapanpestcontrol/static/media/hero.1c23f099.png",
+    "static/media/home.scss": "/sapanpestcontrol/static/media/hero1.3ea3bc79.jpg",
+    "static/media/card.scss": "/sapanpestcontrol/static/media/rodent.d8292bde.png",
+    "static/media/logo.0864203d.png": "/sapanpestcontrol/static/media/logo.0864203d.png",
+    "static/media/mosquito.38ed05e3.png": "/sapanpestcontrol/static/media/mosquito.38ed05e3.png",
+    "static/media/review.scss": "/sapanpestcontrol/static/media/review.97be5f03.jpg",
+    "static/media/roach.2c72beab.png": "/sapanpestcontrol/static/media/roach.2c72beab.png",
+    "static/media/slug.4085c4da.png": "/sapanpestcontrol/static/media/slug.4085c4da.png",
+    "static/media/spider.18b8e506.png": "/sapanpestcontrol/static/media/spider.18b8e506.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.960bba08.js",
+    "static/js/2.d629463f.chunk.js",
+    "static/css/main.adfebd64.chunk.css",
+    "static/js/main.dcfe7841.chunk.js"
+  ]
+}
