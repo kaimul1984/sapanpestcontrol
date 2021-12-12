@@ -24,9 +24,9 @@
   @include respond(laptop) {
     background-color: rgb(183, 201, 181);
   }
-  @include respond(landscape) {
-    background-color: rgb(23, 196, 3);
-  }
+  // @include respond(landscape) {
+  //   background-color: rgb(23, 196, 3);
+  // }
 
   .top {
     width: 100%;
