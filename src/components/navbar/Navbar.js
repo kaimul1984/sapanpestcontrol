@@ -7,13 +7,9 @@ import { Navlist } from "./Navlist";
 const Navbar = () => {
   const [selected, setSelected] = useState("home");
   const { isOpen, show } = useContext(Context);
-  
+
   return (
-    <div
-      className={
-        (isOpen ? "navbar active" : "navbar",
-        show ? "navbar" : "navbar reverse")
-      }>
+    <div className={isOpen ? "navbar active" : "navbar" && show ? 'navbar' : 'navbar reverse'}>
       <nav>
         <ul>
           {navitems.map((item) => {
