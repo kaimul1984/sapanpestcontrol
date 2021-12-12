@@ -1,0 +1,30 @@
+@import './global.scss';
+.App {
+  width: 100%;
+  height: 100vh;
+
+  .section {
+    width: 100%;
+    //height: calc(100vh - 150px);
+    position: relative;
+    top: 150px;
+
+    // scroll-behavior: smooth;
+    // scroll-snap-type: y mandatory;
+    // scrollbar-width: none; //for firefox
+    // &::-webkit-scrollbar{
+    //     display: none;
+    // }
+      
+       
+    
+    > * {
+      width: 100vw;
+      //height: calc(100vh - 150px);
+      //scroll-snap-align: start;
+      z-index: 111;
+     
+     
+    }
+  }
+}

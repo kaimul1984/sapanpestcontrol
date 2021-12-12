@@ -1,0 +1,93 @@
+@import "../../global.scss";
+
+.feature {
+  width: 100vw;
+  height: auto;
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    0deg,
+    rgba(213, 185, 35, 1) 0%,
+    rgba(238, 22, 11, 0.938813025210084) 0%,
+    rgba(16, 120, 185, 1) 0%,
+    rgba(26, 123, 175, 1) 0%,
+    rgba(151, 165, 50, 0.6306897759103641) 52%,
+    rgba(130, 158, 71, 0.7483368347338936) 100%,
+    rgba(157, 182, 21, 0.7469362745098039) 100%
+  );
+  @include respond(mobile) {
+    padding: 4rem 0;
+  }
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    //font-size: 3vw;
+    @include respond(mobile) {
+      font-size: 2.5rem;
+    }
+  }
+  .wrapper {
+    width: 70vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    gap: 5rem;
+    @include respond(desktop) {
+      width: 90vw;
+      gap: 3rem;
+    }
+    @include respond(laptop) {
+      width: 90vw;
+      gap: 1rem;
+    }
+    @include respond(tablet) {
+      width: 90vw;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @include respond(mobile) {
+      width: 90vw;
+      gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .image {
+      width: 250px;
+      height: 300px;
+      //border-radius: 10px;
+      @include respond(laptop) {
+        width: 22vw;
+      }
+      @include respond(tablet) {
+        width: 30vw;
+      }
+      @include respond(mobile) {
+        width: 45vw;
+        height: auto;
+      }
+
+      img {
+        width: 100%;
+        height: 250px;
+        background-position: center;
+        //object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        background: #fff;
+        //padding: 0.2rem;
+        //border-bottom: 1px solid chocolate;
+      }
+      p {
+        text-align: center;
+        line-height: 40px;
+        background: rgb(161, 159, 159);
+        font-size: 3rem;
+        @include respond(mobile) {
+          font-size: 4vw;
+        }
+      }
+    }
+  }
+}

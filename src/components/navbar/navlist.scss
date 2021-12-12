@@ -1,0 +1,63 @@
+@import "../../global.scss";
+
+li {
+  margin: 0 auto;
+  @include respond (mobile) {
+    width: 100%;
+  }
+  .link {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    @include respond (mobile) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    
+  }
+    &.active {
+      background-color: #fff;
+      color: #000;
+      @include respond (mobile){
+      background-color:transparent;
+
+      }
+      
+    }
+    &.active::before {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgb(235, 111, 2);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      top: 0;
+      right: 0;
+      background-color: rgb(235, 111, 2);
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+       @include respond (mobile){
+      background-color:transparent;
+         
+         border-bottom: 1px solid #000;
+      color: #000;
+       }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+@import "../../global.scss";
+
+.review {
+  width: 100vw;
+  height: auto;
+ background-image: url(../../image/review.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 7rem 0;
+  text-transform: capitalize;
+ h1{
+   font-size: 4rem;
+   color: #fff;
+ }
+  
+  .container {
+    width: 70vw;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    //flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+    @include respond (mobile);@include respond(laptop); @include respond(desktop)  {
+      width: 80vw;
+    }
+
+    article {
+      position: absolute;
+      top: 3rem;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: transform 0.5s;
+      &.activeSlide {
+        opacity: 1;
+        transform: translateX(0);
+      }
+      &.nextSlide {
+        transform: translateX(100%);
+      }
+      &.lastSlide {
+        transform: translateX(-100%);
+      }
+
+      img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        
+        box-shadow: 10px 0px 0px 5px $primary;
+      
+        padding: 0.3rem;
+        margin-bottom: 1rem;
+        @include respond (mobile) {
+          width: 100px;
+          height: 100px;
+          margin-bottom: 0.5rem;
+        }
+      }
+      h4 {
+        margin: 0.3rem 0 1rem;
+        font-size: 1rem;
+        color: $primary;
+      }
+      .text {
+        margin: 0 auto;
+        width: 500px;
+        line-height: 2.5rem;
+        font-weight: bold;
+        text-align: center;
+        @include respond (mobile) {
+          font-size: 4vw;
+          width: 70vw;
+          line-height: 2.5rem;
+        }
+      }
+    }
+  }
+  .btn {
+    @include respond (mobile); @include respond (tablet) {
+      position: absolute;
+      bottom: 0px;
+    }
+
+    button {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      font-size: 2rem;
+      margin: 0 1rem;
+      transition: all .3s;
+      &:hover{
+        background-color: $primary;
+      }
+      @include respond (mobile); @include respond (tablet) {
+        position: initial;
+      }
+    }
+    .left {
+      left: 20rem;
+      top: 50%;
+      transform: translateY(-50%);
+      @include respond(desktop){
+         left: 10rem;
+      }
+      @include respond(laptop) {
+        left: 5rem;
+      }
+    }
+    .right {
+      right: 20rem;
+      top: 50%;
+      transform: translateY(-50%);
+      @include respond(desktop){
+         right: 10rem;
+      }
+       @include respond(laptop) {
+        right: 5rem;
+      }
+    }
+  }
+  // .radio{
+  //     position: absolute;
+  //     bottom: 30px;
+  //     display: flex;
+  //     .dot{
+  //         width: 25px;
+  //         height: 3px;
+  //         background-color: #fff;
+  //         margin: 0 1rem;
+  //     }
+  // }
+}

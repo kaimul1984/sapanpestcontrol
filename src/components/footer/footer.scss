@@ -1,0 +1,70 @@
+@import "../../global.scss";
+
+.footer {
+ 
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   @include respond (mobile); @include respond(tablet){
+      width: 90vw;
+      
+    }
+
+  .copyright {
+    width: 100%;
+    padding: 0 30rem;
+    margin: auto;
+    display: flex;
+    color:#fff;
+    justify-content: space-between;
+    z-index: 999;
+    @include respond(tablet){
+       width: 90vw;
+      padding: 0 1rem;
+    align-items: center;
+      flex-direction: column;
+    }
+    @include respond (laptop);@include respond(desktop){
+      width: 90vw;
+      padding: 0;
+    }
+    @include respond (mobile){
+      width: 90vw;
+      padding: 0 1rem;
+      flex-direction: column;
+    }
+    p {
+      margin-top: 3rem;
+    }
+    .social {
+      h3 {
+        margin-bottom: 1rem;
+      }
+      .icon {
+        display: flex;
+        li {
+          list-style-type: none;
+          width: 50px;
+          height: 50px;
+          background-color: $btn-color;
+          margin: 0 1rem;
+          border-radius: 50%;
+          position: relative;
+          transition: all .3s;
+          &:hover{
+            background-color: $primary;
+          }
+          svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
+    }
+  }
+}

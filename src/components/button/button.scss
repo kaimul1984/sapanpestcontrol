@@ -1,0 +1,31 @@
+@import "../../global.scss";
+
+button {
+  padding: 1.3rem 2rem;
+  text-transform: capitalize;
+  border: none;
+  background-color: $btn-color;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 111;
+  cursor: pointer;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 200%;
+    top: 0;
+    left: -50px;
+    background-color: $primary;
+    transform: skewx(40deg);
+    z-index: -1;
+    transition: width 0.5s;
+  }
+  &:hover::after{
+      width: 170%;
+  }
+}

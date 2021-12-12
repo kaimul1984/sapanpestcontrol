@@ -1,0 +1,140 @@
+@import "../../global.scss";
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 5rem 0 4rem;
+  display: flex;
+  justify-content: center;
+  @include respond(mobile);
+  @include respond(tablet) {
+    height: auto;
+  }
+  .container {
+    //background: #000;
+    width: 70vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    @include respond(desktop) {
+      width: 90vw;
+    }
+    @include respond(laptop) {
+      width: 90vw;
+    }
+    @include respond(tablet);
+    @include respond(landscape) {
+      width: 90vw;
+      margin-top: -5rem;
+      flex-direction: column;
+    }
+    @include respond(mobile) {
+      width: 90vw;
+      padding: 1rem 0;
+      flex-direction: column;
+    }
+
+    .left {
+      padding: 3rem;
+      flex: 1;
+      @include respond(mobile) {
+        padding: 1rem 1rem 4rem;
+      }
+      //background-color: rgb(238, 232, 232);
+      p {
+        line-height: 1.8;
+        @include respond(laptop) {
+          line-height: 2.5rem;
+        }
+        @include respond(mobile) {
+          line-height: 2.4rem;
+        }
+      }
+      h1,
+      h2,
+      p,
+      h3 {
+        margin-bottom: 2rem;
+        @include respond(laptop) {
+          margin-bottom: 1.5rem;
+        }
+      }
+      @include respond(tablet);
+      @include respond(landscape) {
+        h3 {
+          text-align: center;
+        }
+      }
+      .quality {
+        display: flex;
+        justify-content: space-between;
+        @include respond(tablet);
+        @include respond(landscape) {
+          justify-content: space-evenly;
+        }
+        .col-1,
+        .col-2 {
+          svg {
+            fill: chocolate;
+            font-size: 2rem;
+            margin-right: 1rem;
+            display: flex;
+            @include respond(mobile) {
+              margin-right: 0.3rem;
+              font-size: 3.5vw;
+            }
+          }
+          h4 {
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: center;
+            @include respond(laptop) {
+              font-size: 1.5vw;
+              margin-bottom: 1.5rem;
+            }
+            @include respond(mobile) {
+              font-size: 3vw;
+              margin-bottom: 2rem;
+            }
+          }
+        }
+      }
+      h6 {
+        text-align: start;
+        margin-bottom: 3rem;
+        @include respond(tablet);
+        @include respond(landscape) {
+          text-align: center;
+        }
+      }
+      .about-btn {
+        display: flex;
+        justify-content: flex-start;
+        @include respond(tablet);
+        @include respond(landscape) {
+          justify-content: center;
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //background-color: rgb(32, 32, 238);
+
+      width: 100%;
+      height: 100%;
+
+      img {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+
+        //margin: auto;
+      }
+    }
+  }
+}

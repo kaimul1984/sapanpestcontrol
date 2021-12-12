@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
+
+$btn-color: #e05915;
+$primary:#06b7ed;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  //overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+  overflow: scroll;
+  overflow-x: hidden;
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1280 - 320)));
+  //overflow: hidden;
+}
+// h1{
+//     font-size: calc(1rem + 3vw);
+// }
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+$width-el: 1600px;
+$width-d: 1200px;
+$width-t: 768px;
+$width-m: 576px;
+$width-l: 992px;
+
+
+@mixin respond ($breakpoint) {
+  @if $breakpoint == bigscreen {
+    @media only screen and (min-width: 1600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 1286px) {
+      @content;
+    }
+  }
+  @if $breakpoint == laptop {
+    @media only screen and (max-width: 1024px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $breakpoint == landscape{
+    @media (min-width: 667px) and (max-width:812px) {
+      @content;
+    }
+  }
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 576px) {
+      @content;
+    }
+  }
+}
