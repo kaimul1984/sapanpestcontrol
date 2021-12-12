@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sapanpestcontrol/static/css/main.af340c7f.chunk.css",
-    "main.js": "/sapanpestcontrol/static/js/main.c60eb31e.chunk.js",
-    "main.js.map": "/sapanpestcontrol/static/js/main.c60eb31e.chunk.js.map",
+    "main.css": "/sapanpestcontrol/static/css/main.64aefb3f.chunk.css",
+    "main.js": "/sapanpestcontrol/static/js/main.ee6ec0ce.chunk.js",
+    "main.js.map": "/sapanpestcontrol/static/js/main.ee6ec0ce.chunk.js.map",
     "runtime-main.js": "/sapanpestcontrol/static/js/runtime-main.960bba08.js",
     "runtime-main.js.map": "/sapanpestcontrol/static/js/runtime-main.960bba08.js.map",
     "static/js/2.15623077.chunk.js": "/sapanpestcontrol/static/js/2.15623077.chunk.js",
     "static/js/2.15623077.chunk.js.map": "/sapanpestcontrol/static/js/2.15623077.chunk.js.map",
     "index.html": "/sapanpestcontrol/index.html",
-    "static/css/main.af340c7f.chunk.css.map": "/sapanpestcontrol/static/css/main.af340c7f.chunk.css.map",
+    "static/css/main.64aefb3f.chunk.css.map": "/sapanpestcontrol/static/css/main.64aefb3f.chunk.css.map",
     "static/js/2.15623077.chunk.js.LICENSE.txt": "/sapanpestcontrol/static/js/2.15623077.chunk.js.LICENSE.txt",
     "static/media/ab2.72e24588.png": "/sapanpestcontrol/static/media/ab2.72e24588.png",
     "static/media/ant.c3f2bb46.png": "/sapanpestcontrol/static/media/ant.c3f2bb46.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.960bba08.js",
     "static/js/2.15623077.chunk.js",
-    "static/css/main.af340c7f.chunk.css",
-    "static/js/main.c60eb31e.chunk.js"
+    "static/css/main.64aefb3f.chunk.css",
+    "static/js/main.ee6ec0ce.chunk.js"
   ]
 }
