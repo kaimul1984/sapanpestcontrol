@@ -25,7 +25,7 @@ const people = [
     image: peter,
     name: "peter smith",
     title: "manager",
-    quote: "My house was surrounded by cockroaches,spiders and other insects. My neighbour was suggested me to use Native pest control services.i hired them and Provided me great services. Thanks to Native pest control teams",
+    quote: "My house was surrounded by cockroaches,spiders and other insects. My neighbour was suggested me to use Native pest control services.i hired them and Provided me great services what i was expecting. Thanks to Native pest control teams",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const people = [
     name: "Anna",
     title: "Retired",
     quote:
-      "A friend of mine has recommended Native Pest Control. After using their service, I feel it was great recommendation. They are very competant and full of knowledge. They inspected my house and treated inside, outside and backyard.Now my house is free from insects.",
+      "A friend of mine has recommended Native Pest Control. They are very competant and full of knowledge. They inspected my house and treated inside, outside and backyard. Now my house is free from insects.",
   },
 ];
 
