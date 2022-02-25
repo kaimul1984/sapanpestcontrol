@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sapanpestcontrol/static/css/main.107f3556.chunk.css",
-    "main.js": "/sapanpestcontrol/static/js/main.ffb54e27.chunk.js",
-    "main.js.map": "/sapanpestcontrol/static/js/main.ffb54e27.chunk.js.map",
+    "main.js": "/sapanpestcontrol/static/js/main.ac6a0cc2.chunk.js",
+    "main.js.map": "/sapanpestcontrol/static/js/main.ac6a0cc2.chunk.js.map",
     "runtime-main.js": "/sapanpestcontrol/static/js/runtime-main.960bba08.js",
     "runtime-main.js.map": "/sapanpestcontrol/static/js/runtime-main.960bba08.js.map",
     "static/js/2.15623077.chunk.js": "/sapanpestcontrol/static/js/2.15623077.chunk.js",
@@ -39,6 +39,6 @@
     "static/js/runtime-main.960bba08.js",
     "static/js/2.15623077.chunk.js",
     "static/css/main.107f3556.chunk.css",
-    "static/js/main.ffb54e27.chunk.js"
+    "static/js/main.ac6a0cc2.chunk.js"
   ]
 }
