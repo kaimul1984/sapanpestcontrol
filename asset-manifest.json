@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sapanpestcontrol/static/css/main.107f3556.chunk.css",
+    "main.css": "/sapanpestcontrol/static/css/main.11dbd168.chunk.css",
     "main.js": "/sapanpestcontrol/static/js/main.d4d68207.chunk.js",
     "main.js.map": "/sapanpestcontrol/static/js/main.d4d68207.chunk.js.map",
     "runtime-main.js": "/sapanpestcontrol/static/js/runtime-main.960bba08.js",
@@ -8,7 +8,7 @@
     "static/js/2.15623077.chunk.js": "/sapanpestcontrol/static/js/2.15623077.chunk.js",
     "static/js/2.15623077.chunk.js.map": "/sapanpestcontrol/static/js/2.15623077.chunk.js.map",
     "index.html": "/sapanpestcontrol/index.html",
-    "static/css/main.107f3556.chunk.css.map": "/sapanpestcontrol/static/css/main.107f3556.chunk.css.map",
+    "static/css/main.11dbd168.chunk.css.map": "/sapanpestcontrol/static/css/main.11dbd168.chunk.css.map",
     "static/js/2.15623077.chunk.js.LICENSE.txt": "/sapanpestcontrol/static/js/2.15623077.chunk.js.LICENSE.txt",
     "static/media/Anna.8572f3d7.jpg": "/sapanpestcontrol/static/media/Anna.8572f3d7.jpg",
     "static/media/about-1.9ece9b0b.jpg": "/sapanpestcontrol/static/media/about-1.9ece9b0b.jpg",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.960bba08.js",
     "static/js/2.15623077.chunk.js",
-    "static/css/main.107f3556.chunk.css",
+    "static/css/main.11dbd168.chunk.css",
     "static/js/main.d4d68207.chunk.js"
   ]
 }
