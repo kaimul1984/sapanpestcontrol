@@ -2,7 +2,7 @@ import ant from '../../image/ant.png'
 import roach from '../../image/roach.png'
 import bugs from '../../image/bugs.png'
 import fly from '../../image/fly.png'
-import slug from '../../image/slug.png'
+import wasp from '../../image/wasp.png'
 import spider from '../../image/spider.png'
 import mosquito from '../../image/mosquito.png'
 import rodent from '../../image/rodent.png'
@@ -29,9 +29,9 @@ const items = [
     name:'flies',
   },
   {
-    id: "slug",
-    image:slug,
-    name:'slug',
+    id: "wasp",
+    image:wasp,
+    name:'wasp',
   },
   {
     id: "spider",

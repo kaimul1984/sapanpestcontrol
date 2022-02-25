@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "../button/Button";
 import Fade from "react-reveal/Fade";
+import service1 from '../../image/service-1.jpg'
+import service2 from '../../image/service-2.jpg'
 
 import "./services.scss";
 import Feature from "../features/Feature";
@@ -26,7 +28,7 @@ const Services = () => {
             </div>
             <div className="box">
               <img
-                src="https://www.residencestyle.com/wp-content/uploads/2019/03/Pest-Control.jpg"
+                src={service2}
                 alt=""
               />
             </div>
@@ -49,7 +51,7 @@ const Services = () => {
             </div>
             <div className="box">
               <img
-                src="https://5.imimg.com/data5/WS/LV/VC/SELLER-26985639/pest-control-services-500x500.jpg"
+                src={service1}
                 alt=""
               />
             </div>

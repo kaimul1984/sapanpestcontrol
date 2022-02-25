@@ -67,12 +67,7 @@ const Review = () => {
               &#62;
             </button>
           </div>
-          {/* <div className="radio">
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-          <div className="dot"></div>
-        </div> */}
+          
         </div>
       </Zoom>
     </div>

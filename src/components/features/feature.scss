@@ -6,16 +6,16 @@
   padding: 6rem 0;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    0deg,
-    rgba(213, 185, 35, 1) 0%,
-    rgba(238, 22, 11, 0.938813025210084) 0%,
-    rgba(16, 120, 185, 1) 0%,
-    rgba(26, 123, 175, 1) 0%,
-    rgba(151, 165, 50, 0.6306897759103641) 52%,
-    rgba(130, 158, 71, 0.7483368347338936) 100%,
-    rgba(157, 182, 21, 0.7469362745098039) 100%
-  );
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(213, 185, 35, 1) 0%,
+  //   rgba(238, 22, 11, 0.938813025210084) 0%,
+  //   rgba(16, 120, 185, 1) 0%,
+  //   rgba(26, 123, 175, 1) 0%,
+  //   rgba(151, 165, 50, 0.6306897759103641) 52%,
+  //   rgba(130, 158, 71, 0.7483368347338936) 100%,
+  //   rgba(157, 182, 21, 0.7469362745098039) 100%
+  // );
   @include respond(mobile) {
     padding: 4rem 0;
   }
@@ -83,7 +83,7 @@
         text-align: center;
         line-height: 40px;
         background: rgb(161, 159, 159);
-        font-size: 3rem;
+        font-size: 2.5rem;
         @include respond(mobile) {
           font-size: 4vw;
         }

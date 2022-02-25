@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../button/Button";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import  hero  from "../../image/hero.png";
+import home from "../../image/home-2.png";
 //import  hero1  from "../../image/ab2.jpg";
 import "./home.scss";
 
@@ -26,7 +26,7 @@ const Home = () => {
         </div>
         <div className="right">
           <Fade right>
-            <img src={hero} alt="" />
+            <img src={home} alt="" />
           </Fade>
         </div>
       </div>

@@ -3,7 +3,8 @@ import Button from "../button/Button";
 import { Heading } from "../heading/Heading";
 import { lists1, lists2 } from "./aboutData";
 import Slide from "react-reveal/Slide";
-import ab2 from "../../image/ab2.png";
+import about from "../../image/about-2.jpg";
+import about1 from "../../image/about-1.jpg";
 import "./about.scss";
 const About = () => {
   return (
@@ -56,7 +57,8 @@ const About = () => {
         </Slide>
         <Slide right>
           <div className="right">
-            <img src={ab2} alt="img" />
+            <img src={about} alt="img" />
+            <img src={about1} alt="img" />
           </div>
         </Slide>
       </div>

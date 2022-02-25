@@ -1,0 +1,16 @@
+@import "../../global.scss";
+.gallary {
+  width: 100vw;
+  height: auto;
+  .container {
+    width: 100vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+    //background-color: rgb(202, 114, 13);
+    @include respond(mobile) {
+        grid-template-columns: 1fr;
+    }
+  }
+}

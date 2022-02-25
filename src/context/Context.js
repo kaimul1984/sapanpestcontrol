@@ -20,7 +20,7 @@ function ContextProvider(props) {
     };
   }, []);
 
-  const value = { isOpen, setIsOpen, show, setShow};
+  const value = { isOpen, setIsOpen, show, setShow };
 
   return <Context.Provider value={value}>{props.children}</Context.Provider>;
 }

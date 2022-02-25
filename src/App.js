@@ -13,6 +13,7 @@ import Utility from "./components/utility/Utility";
 import Card from "./components/card/Card";
 import ContextProvider from "./context/Context";
  import Review from "./components/review/Review";
+import Gallary from "./components/gallary/Gallary";
 
 const App = () => {
   
@@ -25,6 +26,7 @@ const App = () => {
           <Home />
           <Card />
           <About />
+          <Gallary />
           <Services />
           {/* <Feature /> */}
           <Review />

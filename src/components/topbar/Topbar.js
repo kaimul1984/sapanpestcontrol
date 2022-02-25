@@ -2,18 +2,17 @@ import React from "react";
 import "./topbar.scss";
 import { FaPhoneAlt, FaRegEnvelope } from "react-icons/fa";
 import { AiOutlineBars } from "react-icons/ai";
-import { useContext} from "react";
+import { useContext } from "react";
 import { Context } from "../../context/Context";
-import logo from "../../image/logo.png";
+import logo from "../../image/logo-1.png";
 
 import Button from "../button/Button";
 
 const Topbar = () => {
   const { isOpen, setIsOpen, show } = useContext(Context);
-  
 
   return (
-    <div className={ show? 'topbar' : 'topbar hide'}>
+    <div className={show ? "topbar" : "topbar hide"}>
       <div className="top">
         <div className="top-wrapper">
           <div className="call flex">
